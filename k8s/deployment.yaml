@@ -1,3 +1,4 @@
+# Deployment conversão-temperatura
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,6 +19,7 @@ spec:
           ports:
             - containerPort: 8080
 ---
+# Deployment Service dconversão-temperatura
 apiVersion: v1
 kind: Service
 metadata:
